@@ -1,0 +1,157 @@
+* ====== GENERAL PAGE LAYOUT ====== */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* ====== HEADER ====== */
+
+header {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  color: #2a7a32;
+  font-size: 2em;
+  margin: 0;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+  margin-bottom: 15px;
+}
+
+/* ====== HOMEPAGE RECIPE SECTIONS ====== */
+
+.recipe {
+  width: 80%;
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+.recipe h2 {
+  color: #2a7a32;
+  text-align: center;
+}
+
+.recipe img {
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.recipe ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.recipe ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.recipe ul li a {
+  color: #2a7a32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.recipe ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ====== RECIPE PAGES (Ingredients + How-To) ====== */
+
+/* Shared card style */
+.ingredients-card,
+.how-to {
+  width: 85%;
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.ingredients-card h2,
+.how-to h2 {
+  text-align: center;
+  color: #2a7a32;
+  margin-bottom: 15px;
+}
+
+/* Unordered list (ingredients) */
+.ingredients-card ul {
+  list-style-type: square;
+  padding-left: 30px;
+  line-height: 1.8;
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Ordered list (steps) */
+.how-to ol {
+  padding-left: 30px;
+  line-height: 1.8;
+  font-size: 1.1em;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style-type: decimal-leading-zero;
+}
+
+/* Paragraph text inside recipe pages */
+.ingredients-card p,
+.how-to p {
+  text-align: center;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* ====== NAVIGATION LINKS (Back | Home) ====== */
+
+.recipe-links {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.recipe-links a {
+  color: #2a7a32;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 8px;
+}
+
+.recipe-links a:hover {
+  text-decoration: underline;
+}
+
+/* ====== SECTION BOX (for slight table feel) ====== */
+section {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: #fafafa;
+  padding: 15px;
+  margin-bottom: 20px;
+}
